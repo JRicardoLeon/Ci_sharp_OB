@@ -7,7 +7,7 @@ Console.WriteLine("Hola mi nombre es: "+nombre);
 
 
 // EJERCICIO 2
-Console.WriteLine("Escriba su nombre...!");
+Console.WriteLine("La hora del sistema es...!");
 String hora = DateTime.Now.ToString("hh:mm:ss");
 
 Console.WriteLine("La hora del sistema actual es: " + hora);
