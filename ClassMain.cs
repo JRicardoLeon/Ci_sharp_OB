@@ -10,11 +10,36 @@ namespace Ejemplo1
     {
         static void Main(string[] args)
         {
+            /*
+             sesion1();
+             */
 
-            Reto2 x = new Reto2();
-            x.ejercicio3();
+            /*
+            Reto2 reto2 = new Reto2();
+            Console.WriteLine(reto2.ejercicio1());
+            reto2.ejercicio2();
+            reto2.ejercicio3();
+             */
+
+            /*  
+            //Solucion del ejercicio de l session 3...
+            Console.WriteLine("Escriba su nombre...!");
+            String nombre = Console.ReadLine();
+            Console.WriteLine("Escriba su telefono.");
+            String telefono = Console.ReadLine();
+            Console.WriteLine("Escriba su direccion.");
+            String direccion = Console.ReadLine();
+            Console.WriteLine("Escriba su Email.");
+            String email = Console.ReadLine();
+            Console.WriteLine("Es cliente Nuevo (SI) O (NO)");
+            String nuevo = Console.ReadLine();
+            persona p = new persona(nombre, telefono,direccion,email,nuevo);
+            Console.WriteLine("Mi nombre es: " + p.nombre + " con telefono: " +
+                p.telefono + ", direccion: " + p.direccion + ", email: " +
+                p.emaill + ", soy nuevo: " + p.clienteN);
+            */
         }
-        static void ejercicio2()
+        static void sesion1()
         {
            Console.WriteLine("Escriba su nombre...!");
             String nombre = Console.ReadLine();
