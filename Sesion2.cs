@@ -52,23 +52,9 @@ namespace Ejemplo1
         {
             Console.WriteLine("Digite un Numero...!");
             int numero = int.Parse(Console.ReadLine());
-            if (numero >= 18)
-            {
-                Console.WriteLine("El numero que diito es Mayor que 18...!");
-            }
-
-            if (numero >= 0)
-            {
-                if (numero >= 18)
-                {
-                    Console.WriteLine("El numero es positivo y mayor que 18.");
-                }
-                else
-                {
-                    Console.WriteLine("El numero es Menor que 18.");
-                }
-               
-            }
+                    Console.WriteLine("True True: "+(numero > 0 && numero > 18));
+                    Console.WriteLine("True False: " + (numero > 0 && numero < 18));
+                    Console.WriteLine("False False: " + (numero > 0 && numero == 18));
             Char caracter = 'a';
             Console.WriteLine(caracter);
         }

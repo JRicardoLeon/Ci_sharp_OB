@@ -12,7 +12,7 @@ namespace Ejemplo1
         {
 
             Reto2 x = new Reto2();
-            Console.WriteLine(x.ejercicio1());
+            x.ejercicio3();
         }
         static void ejercicio2()
         {
