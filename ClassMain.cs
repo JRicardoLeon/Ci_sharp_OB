@@ -38,6 +38,10 @@ namespace Ejemplo1
                 p.telefono + ", direccion: " + p.direccion + ", email: " +
                 p.emaill + ", soy nuevo: " + p.clienteN);
             */
+
+            /*sesion4 sesion = new sesion4();
+            sesion.ejercicioFor2();
+            */
         }
         static void sesion1()
         {
@@ -50,8 +54,6 @@ namespace Ejemplo1
             String hora = DateTime.Now.ToString("hh:mm:ss");
 
             Console.WriteLine("La hora del sistema actual es: " + hora);
-           
-            Console.WriteLine("soy un metodo");
         }
         
     }
